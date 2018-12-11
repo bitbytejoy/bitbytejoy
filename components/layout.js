@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Footer from './footer'
+import appUrl from '../util/appUrl'
 
 export default ({ title, children, openGraphUrl }) => (
   <div>
@@ -8,7 +9,7 @@ export default ({ title, children, openGraphUrl }) => (
       <meta property="og:title" content={title}/>
       <meta property="og:type" content="website"/>
       <meta property="og:url" content={openGraphUrl}/>
-      <meta property="og:image" content="/static/myself.jpg"/>
+      <meta property="og:image" content={appUrl("/static/myself.jpg")}/>
       <title>{title}</title>
       <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended|Monoton|Roboto:400,700,900" rel="stylesheet"/>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"/>
