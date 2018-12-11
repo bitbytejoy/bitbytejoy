@@ -29,7 +29,7 @@ export default [
       "With all the experience that I have gained through the years, I have seen projects that were done above all expectations and in time, and I have seen projects that have missed deadlines by 6 months. After the end of every project I have worked on, I have evaluated the mistakes made on those projects and tried to figure out the best approach for the next one.",
       "All my experience has thought me a thing or two. I have become a biased developer with strong opinions on technologies. Some technologies I don't consider worthy of working on anymore and won't accept a job for. The reason for this is that I have seen what those technologies do to projects and how much the technologies prolongate something that could have been done a lot easier and faster with more happy customers and even more satisfied developers.",
       "I will work on Express and React on any project you might want me to work on.",
-      "The technology I love are: MongoDB/MySQL, Redis, Express/Java Spark, Next.js, React."
+      "The technologies I love are: MongoDB/MySQL, Redis, Express/Java Spark, Next.js, React."
     ],
     expanded: false
   },
