@@ -33,6 +33,7 @@ export default ({ title, projectUrl, githubUrl, projectImageUrl }) => (
       }
 
       h3 {
+        max-width: calc(100% - 2 * ${style.padding.normal});
         ${style.text.h3White}
       }
 
