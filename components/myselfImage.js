@@ -3,7 +3,7 @@ import Section from './section'
 export default () => (
   <div>
     <Section title={null}>
-      <img src="/static/myself.svg"/>
+      <img src="/static/myself.jpg"/>
     </Section>
 
     <style jsx>{`
