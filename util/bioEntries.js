@@ -16,7 +16,7 @@ export default [
     entries: [
       {
         title: 'Consultant',
-        text: [ 'I was still working @ Bay Area Coders. This was my dream job. At this point i was a leader, architect, consultant, a little bit of a UX/UI designer.' ]
+        text: [ 'I was still working @ Bay Area Coders. This was my dream job. At this point I was a leader, architect, consultant, a little bit of a UX/UI designer.' ]
       }
     ]
   },
@@ -25,7 +25,7 @@ export default [
     entries: [
       {
         title: 'Consultant',
-        text: [ '@ BayAreaCoders, I had an amazing year. I worked with clients on various technologies like React.js, Node.js and PHP Laravel. I had been working on many interesting projects, mostly in  entertainment & media.' ]
+        text: [ '@ BayAreaCoders, I had an amazing year. I worked with clients on various technologies like React.js, Node.js and PHP Laravel. I had been working on many interesting projects, mostly in entertainment & media.' ]
       }
     ]
   },
@@ -69,7 +69,7 @@ export default [
     entries: [
       {
         title: 'Java Engineer',
-        text: [ 'I finally landed my first paid software engineering job @Infobip. I was the best job that I could have landed. I had a mentro who was the best teacher I would ever have during my career. He thought me many things.' ]
+        text: [ 'I finally landed my first paid software engineering job @Infobip. It was the best job that I could have landed. I had a mentor who was the best teacher I would ever have during my career. He thought me many things.' ]
       }
     ]
   },
@@ -91,7 +91,7 @@ export default [
     entries: [
       {
         title: 'Web development',
-        text: [ 'This was the year that kick started my career. I learned a lot about web development. I learnt databases, HTML, CSS, JavaScript and a lot of Java and .NET. I had acquired the skills to start working as a junior Java developer.' ]
+        text: [ 'This was the year that kick started my career. I learned a lot about web development. I learnt C, C++, databases, HTML, CSS, JavaScript and a lot of Java and .NET. I had acquired the skills to start working as a junior Java developer.' ]
       }
     ]
   },
@@ -100,7 +100,7 @@ export default [
     entries: [
       {
         title: 'Enrolled in college',
-        text: [ 'I enrolled into college. There was no time to do a lot of software development. I was learning electronics, math, physics, and other engineering topics tield to electrical and electronics engineering.' ]
+        text: [ 'I enrolled into college. There was no time to do a lot of software development. I was learning electronics, math, physics, and other engineering topics tied to electrical and electronics engineering.' ]
       }
     ]
   },

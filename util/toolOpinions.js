@@ -10,6 +10,11 @@ export default [
     text: 'The judge of simplicity.'
   },
   {
+    imageUrl: '/static/c_logo.svg',
+    title: 'C',
+    text: 'Nothing will ever get better than C.'
+  },
+  {
     imageUrl: '/static/sketch_logo.svg',
     title: 'Sketch',
     text: 'Designing has never been this much fun.'
