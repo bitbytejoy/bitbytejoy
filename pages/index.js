@@ -9,10 +9,11 @@ import ReferenceProjects from '../components/referenceProjects'
 import ToolOpinions from '../components/toolOpinions'
 import Bio from '../components/bio'
 import Myself from '../components/myself'
+import appUrl from '../util/appUrl'
 
-export default ({ openGraphUrl }) => (
+export default () => (
   <div>
-    <Layout title="bitbytejoy" openGraphUrl={openGraphUrl}>
+    <Layout title="bitbytejoy" openGraphUrl={appUrl('')}>
       <Hero/>
       <ReferenceProjects projects={projects}/>
       <ToolOpinions opinions={toolOpinions}/>
