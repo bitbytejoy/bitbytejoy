@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="750" viewBox="0 0 750 750">
+  <defs>
+    <rect id="terminal-a" width="750" height="750" rx="10"/>
+    <rect id="terminal-d" width="750" height="77.4"/>
+    <filter id="terminal-c" width="104.9%" height="147.8%" x="-2.5%" y="-22.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadOuter1"/>
+      <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="terminal-b" fill="#fff">
+      <use xlink:href="#terminal-a"/>
+    </mask>
+    <use fill="#FFF" xlink:href="#terminal-a"/>
+    <g mask="url(#terminal-b)">
+      <use fill="#000" filter="url(#terminal-c)" xlink:href="#terminal-d"/>
+      <use fill="#FFF" xlink:href="#terminal-d"/>
+      <g transform="translate(29 22.405)">
+        <ellipse cx="14.491" cy="14.101" fill="#FC6F6F" rx="14.491" ry="14.101"/>
+        <ellipse cx="64" cy="15.276" fill="#FCEE6F" rx="15.698" ry="15.276"/>
+        <ellipse cx="112.302" cy="15.276" fill="#9BFC6F" rx="15.698" ry="15.276"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -112,6 +112,14 @@ const text = {
     letter-spacing: 0.38px;
     color: ${color.black};
   `,
+  pBold: `
+    margin: 0;
+    padding: 0;
+    ${font.robotoBold}
+    font-size: 15px;
+    letter-spacing: 0.58px;
+    color: ${color.black};
+  `,
   timeline: `
     ${textP}
     font-size: 13px;
@@ -229,6 +237,24 @@ const layer = {
       width: 750px;
       max-width: 100%;
       text-align: right;
+    `
+  },
+  hero404: {
+    root: `
+      ${sectionLayerFullWidth}
+      background-color: ${color.white};
+      padding: 0;
+      height: 72px;
+    `,
+    content: `
+      ${sectionLayer}
+      max-width: 750px;
+      width: 100%;
+      height: 100%;
+      background-color: ${color.white};
+      background-image: url(${imageUrl('hero_background.jpg')});
+      background-repeat: no-repeat;
+      background-position: center;
     `
   },
   card: {

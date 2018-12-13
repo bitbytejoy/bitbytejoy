@@ -29,6 +29,7 @@ export default ({ title, children, openGraphUrl }) => (
         margin: 0;
         padding: 0;
         background-color: #2d2d2d;
+        min-height: 100vh;
       }
     `}</style>
   </div>
