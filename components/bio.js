@@ -1,15 +1,26 @@
-import Section from './section'
-import BioEntry from './bioEntry'
+import Section from './Section'
+import BioEntry from './BioEntry'
 import _ from 'lodash'
-import style from '../util/style'
+import style from '../style/style'
+import actor from '../state/actor'
+import t from '../locales/t'
 
-export default ({ entries }) => (
+export default actor(({ language, entries }) => (
   <div>
-    <Section title="How my life played out so far...">
+    <Section title={t('bio-title', language)}>
       <div className="entries">
         {_.map(entries, b => (
           <div key={b.year} className="entry">
-            <BioEntry key={b.year} year={b.year} entries={b.entries}/>
+            <BioEntry
+              key={b.id}
+              year={b.year}
+              entries={_.map(
+                b.entries,
+                e => _.merge(
+                  {},
+                  e,
+                  { title: e.title[language], text: e.text[language] })
+              )}/>
           </div>
         ))}
       </div>
@@ -41,4 +52,4 @@ export default ({ entries }) => (
       }
     `}</style>
   </div>
-)
+), state => ({ language: state.language, entries: state.bio }))

@@ -1,10 +1,11 @@
-import MyselfImage from './myselfImage'
-import Article from './article'
+import MyselfImage from './MyselfImage'
+import Article from './Article'
 import _ from 'lodash'
-import style from '../util/style'
-import actor from '../util/actor'
+import style from '../style/style'
+import actor from '../state/actor'
+import t from '../locales/t'
 
-export default actor(({ articles, action }) => (
+export default actor(({ language, articles, action }) => (
   <div className="root">
     <div className="content">
       <div>
@@ -14,7 +15,13 @@ export default actor(({ articles, action }) => (
       <div className="articles">
         {_.map(articles, a => (
           <div key={a.id} className="article">
-            <Article {...a} action={action}/>
+            <Article
+              {...(_.merge(
+                {},
+                a,
+                { title: a.title[language], text: a.text[language] }
+              ))}
+              action={action}/>
           </div>
         ))}
       </div>
@@ -40,4 +47,4 @@ export default actor(({ articles, action }) => (
       }
     `}</style>
   </div>
-), state => ({ articles: state.articles }))
+), state => ({ language: state.language, articles: state.myselfArticles }))

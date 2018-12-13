@@ -1,12 +1,15 @@
-import config from '../util/config'
-import style from '../util/style'
+import config from '../config'
+import style from '../style/style'
+import imageUrl from '../util/imageUrl'
+import t from '../locales/t'
+import actor from '../state/actor'
 
-export default () => (
+export default actor(({ language }) => (
   <div className="root">
     <div className="footer">
       <div className="content">
-        <h2>{'Thanks for reading...'}</h2>
-        <a href={'mailto:' + config.contactEmail}>Contact me</a>
+        <h2>{t('thanks-for-reading', language)}</h2>
+        <a href={'mailto:' + config.contactEmail}>{t('contact-me', language)}</a>
       </div>
     </div>
 
@@ -18,7 +21,7 @@ export default () => (
 
       .footer {
         ${style.layer.section.white750}
-        background-image: url(/static/hero_background.svg);
+        background-image: url(${imageUrl('hero_background.svg')});
         background-repeat: no-repeat;
         background-position: center;
       }
@@ -33,4 +36,4 @@ export default () => (
       }
     `}</style>
   </div>
-)
+), state => ({ language: state.language }))

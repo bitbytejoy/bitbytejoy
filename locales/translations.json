@@ -1,0 +1,454 @@
+{
+  "english": {
+    "en": "EN",
+    "de": "EN"
+  },
+  "german": {
+    "en": "DE",
+    "de": "DE"
+  },
+  "contact-me": {
+    "en": "Contact me",
+    "de": "Kontakt"
+  },
+  "change-language": {
+    "en": "Change Language",
+    "de": "Sprache endern"
+  },
+  "reference-projects-title": {
+    "en": "Just some reference projects...",
+    "de": "Meine projekte..."
+  },
+  "bitbytejoy-personal-website": {
+    "en": "bitbytejoy - Personal Website",
+    "de": "bitbytejoy - Persönliche Website"
+  },
+  "brainsjs-react-state-manager": {
+    "en": "Brainsjs - React State Manager",
+    "de": "Brainsjs - React State Manager"
+  },
+  "check-it-out": {
+    "en": "Check it out",
+    "de": "Anschauen"
+  },
+  "roku-reactive-simple-roku-app-base": {
+    "en": "Roku Reactive - Simple Roku App Base",
+    "de": "Roku Reactive - Einfache Roku App Basis"
+  },
+  "data-structures-and-algorithms-study": {
+    "en": "Data Structures And Algorithms Study",
+    "de": "Datenstrukturen Und Algorithmen Studie"
+  },
+  "tool-opinions-title": {
+    "en": "What I think about my tools...",
+    "de": "Was Ich über meine Tools denke..."
+  },
+  "apple-opinion": {
+    "en": "Tried all. Sticking with MacBooks & iPhones.",
+    "de": "MacBooks und iPhones haben mich nie enttäuscht"
+  },
+  "vim-opinion": {
+    "en": "The judge of simplicity.",
+    "de": "Der Bewerter des Einfachen."
+  },
+  "c-opinion": {
+    "en": "Nothing will ever get better than C.",
+    "de": "Nichts wird je besser als C."
+  },
+  "sketch-opinion": {
+    "en": "Designing has never been this much fun.",
+    "de": "Design machte nie so viel Spaß."
+  },
+  "sass-opinion": {
+    "en": "What? You are still writing plain CSS?",
+    "de": "Was? Ihr screibt immer noch einfach CSS?"
+  },
+  "javascript-opinion": {
+    "en": "The one to rule them all.",
+    "de": "Der Eine um Sie alle zu beherrschen."
+  },
+  "react-opinion": {
+    "en": "There will not be any better tool, ever.",
+    "de": "Es wird kann besseres Tool mehr gebaut."
+  },
+  "webpack-opinion": {
+    "en": "Packing the frontend the best you can.",
+    "de": "Mann muss die Frontend einpacken."
+  },
+  "nodejs-opinion": {
+    "en": "The only way to render JavaScript server-side.",
+    "de": "JavaScript am Backend. Kein Wort mehr."
+  },
+  "nextjs-opinion": {
+    "en": "Why waste time setting Node.js projects?",
+    "de": "Warum Zeit verlieren. Alles ist schon aufgebaut."
+  },
+  "php-opinion": {
+    "en": "If you really insist on me not using Node.js.",
+    "de": "Wenn Ich wirklich nicht Node.js benutzen kann."
+  },
+  "laravel-opinion": {
+    "en": "If I am using PHP, I am rolling with the best of it.",
+    "de": "Wenn Ich mit PHP gehe, nim Ich den besten Framework mit."
+  },
+  "spark-opinion": {
+    "en": "I do not like Java. But I will work with Spark.",
+    "de": "Spark ist was die Java Welt braucht."
+  },
+  "mysql-opinion": {
+    "en": "The proven storage solution.",
+    "de": "Die bewiesene Datenbank."
+  },
+  "mongodb-opinion": {
+    "en": "When you want fast development and a clean DB.",
+    "de": "Schelle Entwicklung und eine gutte DB."
+  },
+  "elasticsearch-opinion": {
+    "en": "You need fast searches and aggregations.",
+    "de": "Mann braucht die Suchen und Aggregationen."
+  },
+  "docker-opinion": {
+    "en": "You have not tried containers yet? Try it NOW.",
+    "de": "Noch nicht Container probiert? GLEICH PROBIEREN."
+  },
+  "git-opinion": {
+    "en": "Code versioning at its best.",
+    "de": "Einfach das beste Code Versioning Tool."
+  },
+  "bio-title": {
+    "en": "How my life played out so far...",
+    "de": "Wie sich mein Leben biss jetzt abgespielt hat..."
+  },
+  "bio-2019-title": {
+    "en": "Moved to Germany",
+    "de": "Umzug nach Deutschland"
+  },
+  "bio-2019-p1": {
+    "en": "After getting married my life goals have changed. I moved with my wife to Germany.",
+    "de": "Nach dem Ich gehereitet habe, haben sich meine Lebensziele geendert. Ich habe mit meiner Frau nach Deutschland umgezugen."
+  },
+  "bio-2019-p2": {
+    "en": "So far, I have been a coder, developer, engineer, designer, leader, architect, consultant. Maybe you have a freelance gig for me or you would like to offer me a job. Please do.",
+    "de": "Biss jetzt, war Ich ein Coder, Entwickler, Ingenieur, Designer, Teamleiter, Software Architekt, Berater. Vielleicht haben Sie für mich einen Freelance Job oder ein Job Angebot. Bitte kontaktieren Sie mich."
+  },
+  "bio-2018-title": {
+    "en": "Consultant",
+    "de": "Berater"
+  },
+  "bio-2018-p1": {
+    "en": "I was still working @ Bay Area Coders. This was my dream job. At this point I was a leader, architect, consultant, a little bit of a UX/UI designer.",
+    "de": "Ich habe immer noch @ Bay Area Coders gearbeitet. Es war mein Traumjob. In dem Zeitpunkt war Ich ein Teamleiter, Architekt, Berater und ein bisschen UX/UI Designer."
+  },
+  "bio-2017-title": {
+    "en": "Consultant",
+    "de": "Berater"
+  },
+  "bio-2017-p1": {
+    "en": "@ Bay Area Coders, I had an amazing year. I worked with clients on various technologies like React.js, Node.js and PHP Laravel. I had been working on many interesting projects, mostly in entertainment & media.",
+    "de": "@ Bay Area Coders, Ich hatte ein unglaublisches Jahr. Ich habe mit Klienten aus den vershiedensten branchen gerarbeitet. Ich habe mit vielen Technologien auch gearbeitet React.js, Node.js, PHP Laravel und weiteren. Ich habe an vielen interessanten Projekten gearbeitet. Meistens in der Unterhaltungs & Medien Industrie."
+  },
+  "bio-2016-title": {
+    "en": "Consultant",
+    "de": "Berater"
+  },
+  "bio-2016-p1": {
+    "en": "I had landed a Software Consultant job @ Bay Area Coders.",
+    "de": "Ich habe einen Software Berater Job @ Bay Area Coders gekriegt."
+  },
+  "bio-2015-title": {
+    "en": "Java Engineer",
+    "de": "Java Ingenieur"
+  },
+  "bio-2015-p1": {
+    "en": "By now I was almost 3 years working @ Infobip. I had gone from a junior developer, to a team lead. I had worked on huge project, learned a lot. Now it was time to start my freelancing career.",
+    "de": "Ich habe fast 3 Jahre @ Infobip gearbeitet. Ich began als ein Junior Entwickler / Ingenieur, und schafte es bis zum Teamleiter zu gehen. Ich habe and vielen großen Projekten @ Infobip gearbeitet. Ich habe vieles gelehrnt. Es war Zeit dass Ich meine Freelancing Karriere beginne."
+  },
+  "bio-2014-title-1": {
+    "en": "Java Engineer",
+    "de": "Java Ingenieur"
+  },
+  "bio-2014-p1-1": {
+    "en": "@ Infobip",
+    "de": "@ Infobip"
+  },
+  "bio-2014-title-2": {
+    "en": "Finished College",
+    "de": "Uni beendet"
+  },
+  "bio-2014-p1-2": {
+    "en": "BSc Electrical & Software Engineering",
+    "de": "BSc Electrical & Software Engineering"
+  },
+  "bio-2014-title-3": {
+    "en": "Oracle Certified Professional",
+    "de": "Oracle Certified Professional"
+  },
+  "bio-2014-p1-3": {
+    "en": "Oracle Certified Professional, Java SE6 Programmer",
+    "de": "Oracle Certified Professional, Java SE6 Programmer"
+  },
+  "bio-2013-title": {
+    "en": "Java Engineer",
+    "de": "Java Ingenieur"
+  },
+  "bio-2013-p1": {
+    "en": "I finally landed my first paid software engineering job @ Infobip. It was the best job that I could have landed. I had a mentor who was the best teacher I would ever have during my career. He thought me many things.",
+    "de": "Ich hatte entlisch meinen ersten bezahlten Software Ingenieur Job @ Infobip gekriegkt. Es war der best Job den Ich kriegen konnte. Ich hatte den besten Mentor den Mann haben kann. Ich habe viele Dinge an dem Job gelehrnt."
+  },
+  "bio-2012-title": {
+    "en": "Computer science",
+    "de": "Informatik"
+  },
+  "bio-2012-p1": {
+    "en": "As college went on, I had learned much more than just software development. I learned about the Von Neumann architecture, assembly, x86 architecture, operating systems, POSIX, internet protocols and digital circuits.",
+    "de": "Als die Uni weiter ging, habe Ich auch mehr als nuhr Software Entwicklung gelehrnt. Ich habe über die Von Neumann Architektur gelehrnt. Ich habe auch Assembly, x86 Architectur, Operation Systeme, POSIX, Internet Protokolle und Digitale Schaltung gelehrnt."
+  },
+  "bio-2012-p2": {
+    "en": "In my spare time, I did a lot of Java development, desktop and web. I had built a Super Mario clone, a Snake game clone, a Calculator application, an MS Paint clone, my own chat server and chat client from scratch using Java and the TCP protocol.",
+    "de": "In meiner Freizeit habe Ich vieles mit Java Entwickelt. Desktop sowie Web. I habe einen Super Mario Klon, einen Snake Klon, eine Kalkulator App, einen MS Paint Klon und meinen eigenen Chat Server und Klienten gebaut. Den Chat Server und Klienten habe Ich nuhr mit Java und TCP Sockets gebaut."
+  },
+  "bio-2012-p3": {
+    "en": "I was ready for my first job.",
+    "de": "Ich war für meinen ersten Job bereit."
+  },
+  "bio-2011-title": {
+    "en": "Web Development",
+    "de": "Webentwicklung"
+  },
+  "bio-2011-p1": {
+    "en": "This was the year that kick started my career. I learned a lot about web development. I learnt databases, HTML, CSS, JavaScript and a lot of Java and .NET. I had acquired the skills to start working as a junior Java developer.",
+    "de": "2011 wahr das Jahr dass meine Karriere gestartet hat. Ich habe viel über Webentwicklung gelehrnt. Ich habe Datenbanken, HTML, CSS, JavaScript und viel Java und .NET gelehrnt. Ich hatte das Wissen um als ein Junior Java Entwickler zu arbeiten."
+  },
+  "bio-2010-title": {
+    "en": "Enrolled in college",
+    "de": "Uni Einschreibung"
+  },
+  "bio-2010-p1": {
+    "en": "I enrolled into college. There was no time to do a lot of software development. I was learning electronics, math, physics, and other engineering topics tied to electrical and electronics engineering.",
+    "de": "Ich habe mich in die Uni eingeschrieben. Ich hatte nicht viel Freizeit um Software zu entwicklen. Ich lehrnte Elektronik, Mathe, Physik und weitere ingenieurfächer."
+  },
+  "bio-2009-title": {
+    "en": "Web Development",
+    "de": "Webentwicklung"
+  },
+  "bio-2009-p1": {
+    "en": "While a senior in high school, I started to meet people who were working in the web development industry. As web development was the only option to get employed in the software development industry in my country at the time, I started doing web development. My focus was on Java.",
+    "de": "In der Mittelschule habe Ich Softwareentwickler kennengelehrnt. Webentwicklung wahr die einzige Branche in der Softwareentwicklung in der Mann damals arbeiten konnte. Ich habe angefangen mich mit der Webentwicklung zu beschäftigen. Mein Fokus wahr an Java."
+  },
+  "bio-2008-title": {
+    "en": "2D Game Engine",
+    "de": "2D Spiel-Engine"
+  },
+  "bio-2008-p1": {
+    "en": "By the end of the year, I had finally managed to build my own 2D game engine. It contained a collision detection, a physics and a graphics engine. It had been my biggest achievement yet. I started building games with it.",
+    "de": "Biss Ende des Jahres habe Ich es geschafft meine eigene 2D Speil-Engine zu bauen. Die Engine besaß eine Kollisionsdetektion, eine Physik und Grafik Engine. Es wahr das großte dass Ich bis dan im Leben erreicht hatte. Ich habe dann angefangen kleine Spiele mit der Engine zu entwicklen."
+  },
+  "bio-2007-title": {
+    "en": "OpenGL Baby Steps",
+    "de": "OpenGL Baby Schritte"
+  },
+  "bio-2007-p1": {
+    "en": "As I grew older, I became more interested in developing games. This lead me to OpenGL programming. I acquired books on OpenGL programming, physics and collision detection.",
+    "de": "Als Ich älter wurde, die Spieleentwicklung hat mich mehr interessiert. Das führte mich zu der OpenGL Programmierung. Ich habe mir Bücher über OpenGL, Physik und Kollisionsdetektion besorgt."
+  },
+  "bio-2006-title": {
+    "en": "C++ Beginner",
+    "de": "C++ Anfänger"
+  },
+  "bio-2006-p1": {
+    "en": "In my free time, I started learning C++. I fell in love with it. I was really hard to find resources to learn from.",
+    "de": "In meiner Freizeit habe Ich angefangen C++ zu lehrnen. Ich liebte es von dem ersten Hello World Programm. Es wahr schwer Resursen fürs Lehrnen zu finden."
+  },
+  "bio-2005-title": {
+    "en": "QBasic Expert",
+    "de": "QBasic Expert"
+  },
+  "bio-2005-p1": {
+    "en": "@ Extracurricular School Activities",
+    "de": "@ Außerschulische Aktivitäten"
+  },
+  "bio-2004-title": {
+    "en": "More QBasic",
+    "de": "Mehr QBasic"
+  },
+  "bio-2004-p1": {
+    "en": "@ Extracurricular School Activities",
+    "de": "@ Außerschulische Aktivitäten"
+  },
+  "bio-2003-title": {
+    "en": "Still doing QBasic",
+    "de": "Immer noch QBasic"
+  },
+  "bio-2003-p1": {
+    "en": "@ Extracurricular School Activities",
+    "de": "@ Außerschulische Aktivitäten"
+  },
+  "bio-2002-title": {
+    "en": "QBasic beginner",
+    "de": "QBasic Anfänger"
+  },
+  "bio-2002-p1": {
+    "en": "@ Extracurricular School Activities",
+    "de": "@ Außerschulische Aktivitäten"
+  },
+  "bio-2001-title": {
+    "en": "Computer Basics",
+    "de": "Computer Grundlagen"
+  },
+  "bio-2001-p1": {
+    "en": "@ Computer courses I was going to.",
+    "de": "@ Computer kurses an die Ich ging."
+  },
+  "bio-2000-title": {
+    "en": "Saw First Computer",
+    "de": "Ich habe das erste mal einen Computer gesehen"
+  },
+  "bio-2000-p1": {
+    "en": "@ Computer courses I was going to.",
+    "de": "@ Computer kurses an die Ich ging."
+  },
+  "bio-1999-title": {
+    "en": "Learned Math",
+    "de": "Mathe Baby Schritte"
+  },
+  "bio-1999-p1": {
+    "en": "@ Grade school.",
+    "de": "@ Grundschule."
+  },
+  "bio-1998-title": {
+    "en": "Learned to count",
+    "de": "Ich lehrnte zu zählen."
+  },
+  "bio-1998-p1": {
+    "en": "@ Grade school.",
+    "de": "@ Grundschule."
+  },
+  "bio-1997-title": {
+    "en": "Learned to write",
+    "de": "Ich lehrnte zu schreiben."
+  },
+  "bio-1997-p1": {
+    "en": "@ Kindergarten",
+    "de": "@ Kindergarten"
+  },
+  "bio-1996-title": {
+    "en": "Toddler",
+    "de": "Kleines Kind"
+  },
+  "bio-1996-p1": {
+    "en": "My first memories date back to this age.",
+    "de": "Meine ersten Erinerungen stammen von diesem Alter."
+  },
+  "bio-1995-title": {
+    "en": "Still A Toddler",
+    "de": "Immer Noch Ein Kleines Kind"
+  },
+  "bio-1995-p1": {
+    "en": "I still don't have any memories of myself.",
+    "de": "Ich erinnere mich noch an gahr nichts."
+  },
+  "bio-1994-title": {
+    "en": "I was a toddler",
+    "de": "Ich wahr ein kleines Kind"
+  },
+  "bio-1994-p1": {
+    "en": "I was probably a toddler by now?",
+    "de": "Ich wahr kein Baby mehr? Denke Ich mindestens so?"
+  },
+  "bio-1993-title": {
+    "en": "Baby? Toddler?",
+    "de": "Baby? Kleines Kind?"
+  },
+  "bio-1993-p1": {
+    "en": "Not sure when I stopped being a baby?",
+    "de": "Ich bin mir nicht sicher wann Mann nicht mehr ein Baby ist?"
+  },
+  "bio-1992-title": {
+    "en": "Still A Baby",
+    "de": "Immer noch ein Baby"
+  },
+  "bio-1992-p1": {
+    "en": "Still a carefree baby...",
+    "de": "Immer noch nur ein sorgloses Baby."
+  },
+  "bio-1991-title": {
+    "en": "I was born",
+    "de": "Ich wahr geboren"
+  },
+  "bio-1991-p1": {
+    "en": "And it all began here...",
+    "de": "Und alles begann hier..."
+  },
+  "what-am-i-about-what-do-i-do": {
+    "en": "What am I about? What do I do?",
+    "de": "Wer bin Ich? Was mache Ich?"
+  },
+  "what-am-i-about-what-do-i-do-p1": {
+    "en": "I am a very open minded person with a great passion for user experience, web and mobile development. Aren't we all developers and designers?",
+    "de": "Ich bin eine offene Person mit viel Enthusiasmus für User Experience, Web und Mobile Entwicklung. Sind wir alle Entwickler / Designer nich so?"
+  },
+  "what-am-i-about-what-do-i-do-p2": {
+    "en": "I have a strong urge to take ownership of the products I work on and to pay attention to every detail from the start to the finish of the project.",
+    "de": "Ich mache meine Projekte immer sehr ernst. Ich achte auf jedes kleine Detail von dem Anfang des Projekts bis zum Ende des Projekts."
+  },
+  "what-am-i-about-what-do-i-do-p3": {
+    "en": "Throughout every project, simplicity is my main goal. This makes my designs less cluttered and more user friendly.",
+    "de": "Es ist mein Ziel jedes Projekt so Einfach wie möglich zu designieren. Das macht meine Designs mehr User freundlicher."
+  },
+  "what-am-i-about-what-do-i-do-p4": {
+    "en": "While developing the software behind the designs, I try to write the shortest and simplest code possible. This leads to the code being easier to maintain, and easier to introduce to new developers who are picking it up after in the maintenance phase.",
+    "de": "Wenn Ich meine Designs im Code durchführe, versuche Ich es immer so kurz und einfach wie es geht zu machen. So schreibe Ich Code dass sehr einfach ist und es wird auch einfacher weiterentwickelt und erweitert mit neuen Funktionalitäten. Es wird auch einfacher für andere Entwickler mit der Codebase weiter zu entwickeln."
+  },
+  "what-do-i-do-when-i-am-not-working": {
+    "en": "What do I do when I am not working?",
+    "de": "Wenn Ich nicht arbeite, mache Ich?"
+  },
+  "what-do-i-do-when-i-am-not-working-p1": {
+    "en": "In my spare time, I try out new frameworks and tools. I evaluate these tools by building projects with them. This gives me a clear overview of the tools and I know from experience what they are about.",
+    "de": "Wenn Ich nicht arbeit, testiere Ich neue Frameworks und Tools. Ich baue kleinere Projekte in meiner Freizeit. So kriege Ich ein Gefühl für die Technologien. So komme Ich auch an neues Wissen und neue Erfahrungen die Ich dann mit sicherheit meinen Klienten vorstellen und empfehlen order dagegen raten kann."
+  },
+  "what-do-i-do-when-i-am-not-working-p2": {
+    "en": "Why do I do this?",
+    "de": "Warum mache Ich das?"
+  },
+  "what-do-i-do-when-i-am-not-working-p3": {
+    "en": "During a long period of working on many projects for a many clients with different backgrounds, I have gained insight into the problems that startups and companies face. These problems are usually caused by the technologies they choose to work with. It has happened, more often than I expected, that a client asked for a specific technology, but there would be a more easier solution to the problem that the client wanted to solve.",
+    "de": "Mit meiner langjährigen Erfahrung an vielen Projekten und mitarbeiten mit Klienten aus verschiedlischen Branchen, habe Ich viel Erfahrung gesamelt. Ich habe die Probleme an die Startups und Unternehmen potenziell treffen werden gesehen und bearbeitet. Meistens stammen die Probleme wegen der falschen technischen Entscheidungen die getroffen wurden. Es ist oft passiert das ein Klient nach einer spezifischen Technologie gefragt hat, wenn es jedoch einfachere Lösungen gab."
+  },
+  "what-web-technologies-am-i-in-love-with": {
+    "en": "Web technologies that I love?",
+    "de": "Web Technologien die Ich liebe?"
+  },
+  "what-web-technologies-am-i-in-love-with-p1": {
+    "en": "I have worked with numerous web technologies. I started my career as a Java developer. I have been since working on huge enterprise systems with countless data. I have also been working on many smaller and medium sized projects. I have used Java Spring, Ruby on Rails, Node.js Express, PHP Laravel, SQL Server, MySQL, PostgreSQL, Redis, React, Angular, Java Spark, Play Framework, Haskell, and many others I cannot even remember at this moment. I have worked with companies in different sectors, from telecommunication to social media. I have had the opportunity to shape the technological futures of some of those companies.",
+    "de": "Ich habe mit vielen Technologien gearbeitet. Ich habe als Java Entwickler angefangen. Ich habe an großen Enterprise Systemen mit zahllosen daten gearbeitet. I habe auch an vielen kleineren und mittelgroßen Projekten gearbeitet. I habe Java Spring, Ruby on Rails, Node.js, Express, PHP Laravel, SQL Server, MySQL, PostgreSQL, Redis, React, Angular, Java Spark, Play Framework, Haskell und viele andere Technologien and die Ich mich jetzt nich mehr erinnern kann, benutzt. Ich habe mit Unterhenem aus verschiedenen Branchen gearbeitet Telekommunikatio bis zu Social Media. Ich hatte die Gelegenheit für mehrere von diesen Unternehmen die technologische Zukunft zu plannieren und zu bauen."
+  },
+  "what-web-technologies-am-i-in-love-with-p2": {
+    "en": "With all the experience I have gained throughout the years, I have become a biased developer with strong opinions on technologies. This is based on what I have seen those technologies do to projects and how much the technologies prolongate projects that could have been done a lot easier and faster with more happy customers and even more satisfied developers.",
+    "de": "Aus aller Erfahrung die Ich durch die Jahre gesamelt habe, haben sich bei mir starke Preferezen für Technologien entwickelt. Diese Preferenzen sind basiert an dem Vergleich der Projekte an den Ich gearbeitet habe. Meistens sind es die selben Technologien die zu Projektverlängerungen führen, wo nur die änderung der Technologien zu viel weniger Mannstunden führen wurden."
+  },
+  "what-web-technologies-am-i-in-love-with-p3": {
+    "en": "My biggest love is C. The only programming language that will forever remain the father of all other. But we are talking web development here.",
+    "de": "Meine größte Liebe ist C. Es ist die beste Programmiersprache die es geben wird. Aber wir sprechen jetzt über Webentwicklung."
+  },
+  "what-web-technologies-am-i-in-love-with-p4": {
+    "en": "The web technologies that I love to work with are: MongoDB/MySQL, Elasticsearch, Redis, Express/Java Spark, Next.js and React.",
+    "de": "Web Technologien mit den Ich es liebe zu arbeiten sind: MongoDB/Mysql, Elasticsearch, Redis, Express / Java Spark, Next.js und React."
+  },
+  "i-also-have-hobbies": {
+    "en": "I also have hobbies for my freetime...",
+    "de": "Ich habe auch Zeit für Hobbies..."
+  },
+  "i-also-have-hobbies-p1": {
+    "en": "I love developing games. I do 3D sculpting, modeling and animation. The tools I use for development: Unreal Engine 4.",
+    "de": "Ich liebe es Spiele zu entwickeln. Ich mache 3D Sculpting, Modeling und Animation. Die Tools die Ich für die entwicklung benutze: Unreal Engine 4."
+  },
+  "read-more": {
+    "en": "Read more...",
+    "de": "Mehr lesen..."
+  },
+  "thanks-for-reading": {
+    "en": "Thanks for reading...",
+    "de": "Danke fürs lesen..."
+  }
+}

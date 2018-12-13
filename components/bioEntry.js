@@ -1,6 +1,6 @@
 import _ from 'lodash'
-import style from '../util/style'
-import BioEntryText from './bioEntryText'
+import style from '../style/style'
+import BioEntryText from './BioEntryText'
 
 const minHeight = '78px'
 const width = '60px'

@@ -1,12 +1,15 @@
-import config from '../util/config'
-import style from '../util/style'
+import config from '../config'
+import style from '../style/style'
+import imageUrl from '../util/imageUrl'
+import actor from '../state/actor'
+import t from '../locales/t'
 
-export default () => (
+export default actor(({ language }) => (
   <div className="root">
     <div className="hero">
       <div className="content">
-        <a href={'mailto:' + config.contactEmail}>Contact me</a>
-        <h1>bitbytejoy</h1>
+        <a href={'mailto:' + config.contactEmail}>{t('contact-me', language)}</a>
+        <h1>{'bitbytejoy'}</h1>
       </div>
     </div>
 
@@ -20,7 +23,7 @@ export default () => (
         ${style.layer.section.white750}
         position: relative;
         height: 320px;
-        background-image: url(/static/hero_background.svg);
+        background-image: url(${imageUrl('hero_background.svg')});
         background-position: center;
         background-repeat: no-repeat;
       }
@@ -41,4 +44,4 @@ export default () => (
       }
     `}</style>
   </div>
-)
+), state => ({ language: state.language }))

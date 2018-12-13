@@ -1,18 +1,20 @@
-import style from '../util/style'
+import style from '../style/style'
 import _ from 'lodash'
-import ProjectCard from './projectCard'
-import Section from './section'
+import ProjectCard from './ProjectCard'
+import Section from './Section'
+import actor from '../state/actor'
+import t from '../locales/t'
 
 const halfWidth = `calc(50% - ${style.padding.normalHalf})`;
 
-export default ({ projects }) => (
+export default actor(({ language, projects }) => (
   <div>
-    <Section title="Just some reference projects...">
+    <Section title={t('reference-projects-title', language)}>
       <div className="cards">
         {_.map(projects, p => (
-          <div key={p.title} className="card">
+          <div key={p.id} className="card">
             <ProjectCard
-              title={p.title}
+              title={p.title[language]}
               projectUrl={p.projectUrl}
               githubUrl={p.githubUrl}
               projectImageUrl={p.projectImageUrl}
@@ -40,4 +42,7 @@ export default ({ projects }) => (
       }
     `}</style>
   </div>
-)
+), state => ({
+  language: state.language,
+  projects: state.referenceProjects
+}))

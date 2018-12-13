@@ -1,24 +1,20 @@
-import projects from '../util/projects'
-import toolOpinions from '../util/toolOpinions'
-import bioEntries from '../util/bioEntries'
-import myselfArticles from '../util/myselfArticles'
 import React from 'react'
-import Layout from '../components/layout'
-import Hero from '../components/hero'
-import ReferenceProjects from '../components/referenceProjects'
-import ToolOpinions from '../components/toolOpinions'
-import Bio from '../components/bio'
-import Myself from '../components/myself'
+import Layout from '../components/Layout'
+import Hero from '../components/Hero'
+import ReferenceProjects from '../components/ReferenceProjects'
+import ToolOpinions from '../components/ToolOpinions'
+import Bio from '../components/Bio'
+import Myself from '../components/Myself'
 import appUrl from '../util/appUrl'
 
 export default () => (
   <div>
     <Layout title="bitbytejoy" openGraphUrl={appUrl('')}>
       <Hero/>
-      <ReferenceProjects projects={projects}/>
-      <ToolOpinions opinions={toolOpinions}/>
-      <Bio entries={bioEntries}/>
-      <Myself articles={myselfArticles}/>
+      <ReferenceProjects/>
+      <ToolOpinions/>
+      <Bio/>
+      <Myself/>
     </Layout>
   </div>
 )

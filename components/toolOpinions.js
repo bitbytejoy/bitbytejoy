@@ -1,17 +1,19 @@
-import style from '../util/style'
+import style from '../style/style'
 import _ from 'lodash'
-import Opinion from './opinion'
-import Section from './section'
+import Opinion from './Opinion'
+import Section from './Section'
+import actor from '../state/actor'
+import t from '../locales/t'
 
-export default ({ opinions }) => (
+export default actor(({ language, opinions }) => (
   <div>
-    <Section title="What I think about my tools...">
+    <Section title={t('tool-opinions-title', language)}>
       <div className="opinions">
         {_.map(opinions, o => (
-          <div className="opinion" key={o.title}>
+          <div className="opinion" key={o.id}>
             <Opinion
               title={o.title}
-              text={o.text}
+              text={o.text[language]}
               imageUrl={o.imageUrl}
             />
           </div>
@@ -37,4 +39,4 @@ export default ({ opinions }) => (
       }
     `}</style>
   </div>
-)
+), state => ({ language: state.language, opinions: state.toolOpinions }))

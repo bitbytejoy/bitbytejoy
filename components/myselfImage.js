@@ -1,9 +1,10 @@
-import Section from './section'
+import Section from './Section'
+import imageUrl from '../util/imageUrl'
 
 export default () => (
   <div>
     <Section title={null}>
-      <img src="/static/myself.jpg"/>
+      <img src={imageUrl('myself.jpg')}/>
     </Section>
 
     <style jsx>{`

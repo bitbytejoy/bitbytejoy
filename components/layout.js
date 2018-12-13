@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import Footer from './footer'
+import Footer from './Footer'
+import LanguagePicker from './LanguagePicker'
 import appUrl from '../util/appUrl'
+import style from '../style/style'
 
 export default ({ title, children, openGraphUrl }) => (
   <div>
@@ -14,6 +16,8 @@ export default ({ title, children, openGraphUrl }) => (
       <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended|Monoton|Roboto:400,700,900" rel="stylesheet"/>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"/>
     </Head>
+
+    <LanguagePicker/>
 
     {children}
 

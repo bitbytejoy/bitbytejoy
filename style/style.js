@@ -1,3 +1,5 @@
+import imageUrl from '../util/imageUrl'
+
 const breakpoint = {
   phone: '320px',
   phablet: '550px',
@@ -157,10 +159,13 @@ const layer = {
       box-sizing: border-box;
       width: 42px;
       height: 42px;
-      background-image: url(/static/github_logo.svg);
+      background-image: url(${imageUrl('github_logo.svg')});
       background-size: 30px;
       background-repeat: no-repeat;
       background-position: center;
+    `,
+    transparent: `
+      ${buttonLayer}
     `
   },
   section: {
@@ -210,6 +215,22 @@ const layer = {
       background-color: ${color.gray};
     `
   },
+  languagePicker: {
+    root: `
+      position: absolute;
+      z-index: 1;
+      margin: auto;
+      width: 100%;
+    `,
+    buttons: `
+      margin: auto;
+      box-sizing: border-box;
+      padding: ${padding.normal};
+      width: 750px;
+      max-width: 100%;
+      text-align: right;
+    `
+  },
   card: {
     white: `
       ${cardLayer}
@@ -225,7 +246,12 @@ const layer = {
 const button = {
   black: `${layer.button.black} ${text.button.white}`,
   white: `${layer.button.white} ${text.button.black}`,
-  github: `${layer.button.github} ${text.button.white}`
+  github: `${layer.button.github} ${text.button.white}`,
+  link: `${layer.button.transparent} ${text.button.black}`
+}
+
+const state = {
+  underline: `text-decoration: underline;`
 }
 
 export default {
@@ -234,5 +260,6 @@ export default {
   text,
   layer,
   button,
-  breakpoint
+  breakpoint,
+  state
 }

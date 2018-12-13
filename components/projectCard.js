@@ -1,11 +1,13 @@
-import style from '../util/style'
+import style from '../style/style'
+import actor from '../state/actor'
+import t from '../locales/t'
 
-export default ({ title, projectUrl, githubUrl, projectImageUrl }) => (
+export default actor(({ language, title, projectUrl, githubUrl, projectImageUrl }) => (
   <div className="card">
     <div className="content">
       <h3>{title}</h3>
       <div className="actions">
-        <a href={projectUrl} target="_blank" className="button">Check it out</a>
+        <a href={projectUrl} target="_blank" className="button">{t('check-it-out', language)}</a>
         <a href={githubUrl} target="_blank" className="githubButton"></a>
       </div>
     </div>
@@ -55,4 +57,4 @@ export default ({ title, projectUrl, githubUrl, projectImageUrl }) => (
       }
     `}</style>
   </div>
-)
+), state => ({ language: state.language }))

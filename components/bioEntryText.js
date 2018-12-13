@@ -1,4 +1,4 @@
-import style from '../util/style'
+import style from '../style/style'
 import _ from 'lodash'
 
 export default ({ title, text }) => (

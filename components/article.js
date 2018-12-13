@@ -1,9 +1,11 @@
-import Section from './section'
+import Section from './Section'
 import _ from 'lodash'
-import style from '../util/style'
+import style from '../style/style'
 import React from 'react'
+import t from '../locales/t'
+import actor from '../state/actor'
 
-export default class extends React.Component {
+export default actor(class extends React.Component {
   constructor(props) {
     super(...arguments)
 
@@ -16,7 +18,7 @@ export default class extends React.Component {
   }
 
   render() {
-    const { id, title, text, expanded, action } = this.props;
+    const { language, id, title, text, expanded, action } = this.props;
 
     return (
       <div>
@@ -34,7 +36,7 @@ export default class extends React.Component {
                       e.preventDefault()
                       this.expandArticle()
                     }
-                  }>Read more...</a>
+                  }>{t('read-more', language)}</a>
                 </div>
               ) : null}
           </div>
@@ -81,4 +83,4 @@ export default class extends React.Component {
       payload: { articleId: id }
     })
   }
-}
+}, state => ({ language: state.language }))

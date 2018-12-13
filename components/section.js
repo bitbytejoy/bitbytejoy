@@ -1,4 +1,4 @@
-import style from '../util/style'
+import style from '../style/style'
 
 export default ({ title, children }) => (
   <div className="section">
