@@ -8,7 +8,7 @@ export default class extends React.Component {
   static getInitialProps({ req, res, err }) {
     const statusCode = res ? res.statusCode : err ? err.statusCode : null
     const url = req ? appUrl(req.originalUrl) : window.location.href
-    return { statusCode: 500, url }
+    return { statusCode, url }
   }
 
   render() {
