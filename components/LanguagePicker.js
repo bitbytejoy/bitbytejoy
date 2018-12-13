@@ -7,7 +7,6 @@ export default actor(({ language, action }) => (
     <div className="buttons">
       <a
         href="#"
-        className={language === 'en' ? 'active' : ''}
         onClick={e => {
           e.preventDefault()
           action({
@@ -20,7 +19,6 @@ export default actor(({ language, action }) => (
 
       <a
         href="#"
-        className={language === 'de' ? 'active' : ''}
         onClick={e => {
           e.preventDefault()
           action({
@@ -44,15 +42,11 @@ export default actor(({ language, action }) => (
 
       a {
         ${style.button.link}
-        margin-right: ${style.padding.tight}};
+        margin-right: ${style.padding.tight};
       }
 
       a:last-child {
         margin-right: 0;
-      }
-
-      .active {
-        ${style.state.underline}
       }
     `}</style>
   </div>

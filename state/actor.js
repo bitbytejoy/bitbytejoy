@@ -1,6 +1,7 @@
 import React from 'react'
 import brains from './brains'
 import _ from 'lodash'
+import language from '../data/language'
 import referenceProjects from '../data/referenceProjects'
 import toolOpinions from '../data/toolOpinions'
 import bio from '../data/bio'
@@ -10,7 +11,7 @@ import changeLanguage from '../actions/changeLanguage'
 
 const actions = { expandArticle, changeLanguage }
 const state = {
-  language: 'en',
+  language,
   referenceProjects,
   toolOpinions,
   bio,

@@ -1,5 +1,6 @@
 const express = require('express')
 const next = require('next')
+const parseLanguage = require('./server-util/parseLanguage').parseLanguage
 
 const app = next({ dev: process.env.NODE_ENV !== 'production' })
 const handle = app.getRequestHandler();
@@ -9,7 +10,7 @@ const handle = app.getRequestHandler();
   const server = express()
 
   server.use('*', (req, res, next) => {
-    console.log('language:', req.get('Accept-Language'))
+    req.language = parseLanguage(req.get('Accept-Language'))
     next()
   })
 
