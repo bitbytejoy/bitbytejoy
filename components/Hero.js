@@ -23,7 +23,7 @@ export default actor(({ language }) => (
         ${style.layer.section.white750}
         position: relative;
         height: 320px;
-        background-image: url(${imageUrl('hero_background.svg')});
+        background-image: url(${imageUrl('hero_background.jpg')});
         background-position: center;
         background-repeat: no-repeat;
       }

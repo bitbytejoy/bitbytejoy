@@ -21,7 +21,7 @@ export default actor(({ language }) => (
 
       .footer {
         ${style.layer.section.white750}
-        background-image: url(${imageUrl('hero_background.svg')});
+        background-image: url(${imageUrl('hero_background.jpg')});
         background-repeat: no-repeat;
         background-position: center;
       }
